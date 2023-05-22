@@ -1,0 +1,31 @@
+.bar{
+    background-color: rgb(215, 185, 243);
+    padding: 1rem 1rem;
+    border-radius: 5px;
+    width: fit-content;
+    margin: 2rem auto 3rem auto;
+   
+}
+.bar form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bar form input{
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    margin-right: .8rem;
+    outline: none;
+}
+.bar form button{
+    border: purple 1px solid;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    background-color: rgb(215, 185, 243);
+    color: purple;
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+    margin-left: 0.5rem;
+}

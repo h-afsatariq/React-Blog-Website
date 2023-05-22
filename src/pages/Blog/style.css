@@ -1,0 +1,36 @@
+.blog{
+    max-width: 700px;
+    margin: 0 auto;
+
+}
+.date{
+    font-size: 1rem;
+    color: gray;
+    font-weight: 500;
+}
+
+.blog header{
+    text-align: center;
+}
+.back{
+    text-decoration: none;
+    margin-bottom: 2rem;
+    color:purple;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.blog img{
+    width: 100%;
+}
+.SubCat{
+    display: flex;
+    justify-content: center;
+}
+.SubCat > div{
+    margin: 1rem;
+}
+
+.desc{
+  padding: 1.5rem; 
+  margin-top:1.5rem ; 
+}

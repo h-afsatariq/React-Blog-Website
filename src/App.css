@@ -1,0 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&display=swap');
+*,*::before,*::after {
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Alkatra', cursive;
+  background-color: rgb(230, 208, 250);
+}
+button,input{
+  font-family: 'Alkatra', cursive;
+}
+
+.container {
+max-width: 1140px;
+width:95%;
+margin: 0 auto;
+padding: 1rem 0;}

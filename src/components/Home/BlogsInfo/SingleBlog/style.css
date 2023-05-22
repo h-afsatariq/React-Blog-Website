@@ -1,0 +1,56 @@
+.SingleBlog{
+    display: flex;
+    flex-direction: column;
+}
+.back{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    height: 260px;
+    margin-bottom: .5rem;
+}
+.SingleBlog h3{
+    margin-bottom: .5rem 0 1rem 0;
+    flex: 1;
+}
+.description{
+    position: relative;
+    max-height: 50px;
+    overflow: hidden;
+    font-size: .85rem;
+    color: grey;
+    padding-right: .5rem .6rem;
+}
+.description::before{
+    position: absolute;
+    content: '....';
+    right: 0;
+    bottom: 0;
+}
+.description footer{
+    display: flex;
+    align-items: center;
+    margin-top:1rem;
+    justify-content: space-between;
+}
+.link{
+    color: purple;
+    font-weight: 600;
+    text-decoration: none;
+}
+.authorInfo{
+    display: flex;
+    align-items: center;
+}
+.authorInfo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: .5rem;
+}
+.authorInfo h4{
+    font-size: .7rem;
+    font-weight: 600;
+    color: grey;
+}   
